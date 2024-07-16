@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+}
+.quiz-container{
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0 0 0 0.1);
+}
+
+.question{
+    margin-bottom: 20px;
+    
+
+}
+.question input{
+    cursor: pointer;
+}
+button{
+display: block;
+width: 100%;
+padding: 10px;
+border: none;
+background-color: rgb(35, 32, 255);
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(92, 92, 255);
+}
